@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font: 15px Georgia,serif;
+    background-color: aliceblue;
+    
+}
+article,aside,figure,footer,header,hgroup,menu,nav,section{
+    display:block;
+}
+h2{
+    font:24px Georgia;
+    margin: 0 0 10px 0;
+}
+h3{
+    margin:0 0 8px 0;
+}
+p{
+    margin:0 0 20px 0;   
+}
+#one{
+    width:70%;
+    margin:60px auto;
+    padding:20px;
+    background-color:aliceblue;
+    
+    display:flex;
+    flex-direction:row;
+}
+#side{
+    width:35%;
+    float:left;
+}
+#side ul{
+    list-style:none;
+}
+#side ul li {
+    color:brown;
+    text-decoration:none;
+    padding:3px 0;
+    display:block;
+}
+@media all and(min-width:1001px){
+   #sidebar ul li a:after{
+    content:"("attr(data-email)")";
+    font-style:italic;
+    color:#666;
+   } 
+}
+@media all and (max-width:699px)and(min-width:520px){
+    #sidebar ul li a{
+        padding-left:21px;
+background:url(../images/email.png)left center no-repeat;
+    }
+}
+
+#main-content{
+    width:65%;
+    float:right
+}

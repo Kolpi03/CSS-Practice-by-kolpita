@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+       box-sizing: border-box; 
+       
+       
+    }
+#thewholwlist:after{
+    display:table;
+    border:10px solid black;
+    
+}
+#coloum{
+    float:left;
+    width:25%;
+    padding:20px;
+    background-color:aquamarine;
+    border:10px solid black;
+
+    
+}
+@media screen and (max-width:992px) {
+    #coloum{width:50%;
+    background-color:red
+    }
+}
+
+@media screen and (max-width:600px) {
+    #coloum{ width:100%;
+    background-color: rgb(238, 23, 242);
+     }
+}
+@media screen and ( max-width:300px){
+    div#coloum{
+        display:None;
+    }
+}
+    </style>
+<body>
+  <h2> four coloums</h2>  
+    <p>at 600 pixel or less there will br 1 coloums horizontally placed.at 990 or less there will be 2 coloums side by side and default we will get 4 side by side.</p>
+<p1>There will be no coloum at max width 300px</p1>
+<div id="thewholelist">
+    <div id="coloum">Coloum 1</div>
+    <div id="coloum">Coloum 2</div>
+    <div id="coloum">Coloum 3</div>
+    <div id="coloum">Coloum 4</div>
+</div>
+</body>
+</html>

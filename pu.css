@@ -1,0 +1,26 @@
+#fullbody{
+    overflow:auto
+}
+#maincontent{margin-left:4px}
+#leftside{
+    float:none;
+    width:auto;
+}
+#menulist{
+    margin:0;
+    padding:0;
+}
+#menuitem{
+    background:#CDF0F6;
+    BORDER:1PX Solid #d4d4d4;
+    border-radius:4px;
+    list-style-type:none;
+    margin:4px;
+    padding:2px;
+
+}
+@madia screen and (min-width:480 px){
+    #leftside:{width:200px;
+    float:left}
+    #maincontent{margin-left:200 px}
+}

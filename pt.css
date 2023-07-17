@@ -1,0 +1,53 @@
+*{
+   margin:0;
+   padding:0;
+   color:black;
+}
+#navbar{
+       height:60 px;
+       background-color:rgb(175, 57, 57);
+       padding-bottom: 20px;
+       border-color: rgb(15, 15, 15);
+       border-width:5px ;
+       display:flex;
+       justify-content:space-evenly;
+       border-color: azure;
+       align-content: space-between;
+       border-style:ridge;
+       
+       
+
+}
+a{
+    margin-right:200px;
+}
+p{
+    margin-right:200px;
+}
+#table1{
+    background-color: rgb(29, 143, 40);
+    height:60 px;
+    padding-bottom: 5px;
+    border-color: rgb(245, 243, 243);
+    border-width:5px ;
+    display:flex;
+    justify-content:space-evenly;
+    border-style:ridge;
+    
+    
+}
+button{
+    background-color: aquamarine;
+    border-left:10px;
+    font-size:10px;
+}
+.dot{
+    font-size:20px;;
+}
+
+
+
+
+
+ 
+

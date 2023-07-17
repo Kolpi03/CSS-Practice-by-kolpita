@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+ * {
+    box-sizing: border-box;
+ }
+ .table{
+    overflow:hidden;
+    background-color:palevioletred
+ }   
+ .table a{
+    float:left;
+    display:block;
+    color:black;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+ }
+ .table a:hover {
+    background-color:aquamarine;
+    color:black;
+    font-size:500 px;
+     
+ }
+ @media screen and (max-width:500px){
+ .table a{
+    float:none;
+    width:100%
+    }
+      }
+
+</style>    
+</head>
+<body>
+<h2>less than 500px,vertically else horizontally</h2>
+<div class="table">
+    <a>link1</a>
+    <a>link2</a>
+    <a>link3</a>
+</div>
+    
+</body>
+</html>

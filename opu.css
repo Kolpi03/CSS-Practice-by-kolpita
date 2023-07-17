@@ -1,0 +1,22 @@
+*{
+    background-color:rgb(111, 111, 112);
+    text-align:center;
+    color:black;
+    font-size:medium ;
+}
+h1{
+    color:rgb(46, 46, 47);
+    font-size: x-large;
+}
+h2{
+    background-color: rgb(36, 233, 135);
+    font-size: xx-large;
+}
+button{
+    background-color: rgb(57, 59, 58);
+    font-size: x-large;
+}
+.kp{
+    background-color: brown;
+    
+}
