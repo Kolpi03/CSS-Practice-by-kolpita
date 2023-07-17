@@ -1,0 +1,31 @@
+h1{
+    color:red;
+    
+}
+
+p{
+    color:rgb(0, 255, 85)
+}
+
+button{
+    color:brown;
+    background-color:#ffffff
+}
+
+body{
+    background-color:rgb(255, 170, 00)
+}
+#Heading1{
+    color:rgb(206, 90, 255);
+    font-size:xx-large
+    
+}
+.Kp{
+    color:aquamarine;
+    font-size: xx-large;
+}
+p1{
+    background-color:aliceblue;
+    color:aqua;
+    text-align:center;
+}

@@ -1,0 +1,25 @@
+
+.heading{
+    color:red
+} 
+button{
+    background-color:aquamarine;
+    text-align:start
+}
+#myclass{
+   background-color:beige
+}
+.pikachu{
+    background-color:blueviolet
+}
+
+ /* h1, h2, h3{
+    color:blue;
+ } */
+ .myclass{
+    color:aliceblue;
+    background-color:aliceblue
+ }
+p{
+    text-align:end
+}
